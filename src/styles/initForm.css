@@ -1,0 +1,61 @@
+.container-derecha {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 75%;
+}
+
+.form {
+  width: 40%;
+}
+
+.form > h1 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+.form > p {
+  text-align: right;
+}
+
+.form > label {
+  margin-top: 80px;
+  text-align: center;
+  display: block;
+  margin-bottom: 40px;
+}
+label > a {
+  color: #339710;
+  text-decoration: none;
+}
+
+.ingresar-button {
+  transition: all 0.5s ease;
+  background-color: #94EFA3;
+  border-radius: 15px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  position: absolute;
+  width: 30%;
+  left: 47.6%;
+}
+
+.form > button:hover {
+  background-color: #0cb628;
+}
+
+.google-button {
+  margin-top: 40px;
+  background-color: rgb(67, 174, 245);
+  color: #fff;
+  transition: all 0.5s ease;
+  border-radius: 15px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  position: absolute;
+  width: 30%;
+  left: 47.6%;
+}

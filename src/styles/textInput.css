@@ -1,0 +1,17 @@
+.control > input {
+    background-color:#E9DEDE;
+    outline: none;
+    border: solid 1px #eee;
+    padding: 10px 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.error {
+    color: rgb(228, 61, 61)
+}
+
+.control {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
